@@ -1,4 +1,4 @@
-##🚀 API Testing with Cypress (Contract Testing) & k6 (Performance Testing) 🚀
+## API Testing with Cypress (Contract Testing) & k6 (Performance Testing) 🚀
 
 This project demonstrates **API Contract Testing** and **Performance
 Testing** using: - [Cypress](https://www.cypress.io/) for API contract
