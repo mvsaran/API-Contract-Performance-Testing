@@ -1,0 +1,24 @@
+{
+  "name": "contractandperformancetesting",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Saran",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start:mock": "json-server --watch db.json --port 3000",
+"test:contract": "npx cypress run --spec \"cypress/e2e/usersContract.cy.js\"",
+"test:contract:open": "npx cypress open --config-file cypress.config.js",
+"test:perf": "k6 run load-test/users_load_test.js"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "cypress": "^15.0.0"
+  },
+  "devDependencies": {
+    "@pact-foundation/pact": "^15.0.1",
+    "@pact-foundation/pact-node": "^10.18.0",
+    "json-server": "^1.0.0-beta.3"
+  }
+}

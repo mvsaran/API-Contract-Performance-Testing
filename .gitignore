@@ -1,0 +1,19 @@
+# Ignore node_modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+jspm_packages/
+
+# Cypress output
+cypress/videos/
+cypress/screenshots/
+
+# Environment files
+.env
